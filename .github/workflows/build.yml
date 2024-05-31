@@ -19,8 +19,9 @@ jobs:
       matrix:
         os-version: ["stretch", "buster", "bullseye", "bookworm"]
     steps:
-      - uses: actions/checkout@v2
-      - uses: jtdor/build-deb-action@v1
+      - uses: actions/checkout@v4
+      - name: Build Debian packages
+        uses: jtdor/build-deb-action@v1.8.0
         env:
           DEB_BUILD_OPTIONS: noautodbgsym
         with:
