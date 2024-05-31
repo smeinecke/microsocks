@@ -1,0 +1,11 @@
+[Unit]
+Description=microsocks Socks4/5 Proxy Service
+After=network.target
+
+[Service]
+EnvironmentFile=-/etc/default/microsocks
+ExecStart=/usr/bin/microsocks $MICROSOCKS_OPTS
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

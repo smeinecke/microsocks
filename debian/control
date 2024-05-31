@@ -1,0 +1,15 @@
+Source: microsocks
+Section: net
+Priority: optional
+Maintainer: Stefan Meinecke <meinecke@greensec.de>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/rofl0r/microsocks
+#Vcs-Git: https://github.com/rofl0r/microsocks.git
+
+
+Package: microsocks
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, systemd
+Description: MicroSocks SOCKS5 server.
+ tiny, portable SOCKS5 server with very moderate resource usage

@@ -1,0 +1,11 @@
+Package: microsocks
+Version: 1.0.4-1
+Architecture: amd64
+Maintainer: stefan <stefan@build-stretch>
+Installed-Size: 42
+Depends: libc6 (>= 2.14), systemd
+Section: net
+Priority: optional
+Homepage: https://github.com/rofl0r/microsocks
+Description: MicroSocks Service
+ A simple and lightweight SOCKS5 server.

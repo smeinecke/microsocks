@@ -1,0 +1,12 @@
+Package: microsocks-dbgsym
+Source: microsocks
+Version: 1.0.4-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: stefan <stefan@build-stretch>
+Installed-Size: 33
+Depends: microsocks (= 1.0.4-1)
+Section: debug
+Priority: optional
+Description: debug symbols for microsocks
+Build-Ids: 6a04143a3885145ccabfe5c0667891ad4c8fe5de

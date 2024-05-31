@@ -1,0 +1,3 @@
+./microsocks
+./debian/microsocks.service
+./debian/microsocks@.service

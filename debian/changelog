@@ -1,0 +1,5 @@
+microsocks (1.0.4-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- stefan <stefan@build-stretch>  Fri, 31 May 2024 20:29:10 +0200

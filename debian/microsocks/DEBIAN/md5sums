@@ -1,0 +1,6 @@
+33ebf8148f602f08137ed18f521635a0  lib/systemd/system/microsocks.service
+e5c072a10a007ae20232f3528b68c675  lib/systemd/system/microsocks@.service
+0112097a9fd8dd1a6ec7f51ff869fa99  usr/bin/microsocks
+a0f588c7430d1d0dbd4c439e958f5066  usr/share/doc/microsocks/README.Debian
+be6271b07d8a13ddbec99e853aaaece4  usr/share/doc/microsocks/changelog.Debian.gz
+cf0839c4fce4edaae2d83f7e990e33df  usr/share/doc/microsocks/copyright

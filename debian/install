@@ -1,0 +1,3 @@
+microsocks /usr/bin
+debian/microsocks.service /lib/systemd/system
+debian/microsocks@.service /lib/systemd/system
